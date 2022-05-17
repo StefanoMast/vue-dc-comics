@@ -3,9 +3,11 @@
     <!-- header -->
     <AppHeader/>
     <AppSecondHeader/>
+    
     <!-- main -->
     <main>
-      questo è main
+      <AppNavMenu/>
+      <AppMain/>
     </main>
 
     <!-- footer -->
@@ -16,13 +18,17 @@
 <script>
 import AppHeader from "./components/AppHeader.vue";
 import AppSecondHeader from "./components/AppSecondHeader.vue";
+import AppNavMenu from "./components/AppNavMenu.vue";
+import AppMain from "./components/AppMain.vue";
 
 
 export default {
     name: 'App',
     components: {
     AppHeader,
-    AppSecondHeader
+    AppSecondHeader,
+    AppNavMenu,
+    AppMain
 }
 }
 </script>
