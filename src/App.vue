@@ -2,7 +2,7 @@
   <div id="app">
     <!-- header -->
     <AppHeader/>
-  
+    <AppSecondHeader/>
     <!-- main -->
     <main>
       questo è main
@@ -15,20 +15,19 @@
 
 <script>
 import AppHeader from "./components/AppHeader.vue";
-import AppHeader from "./components/AppHeader.vue";
-import AppHeader from "./components/AppHeader.vue";
+import AppSecondHeader from "./components/AppSecondHeader.vue";
 
 
 export default {
-  name: 'App',
-  components: {
+    name: 'App',
+    components: {
     AppHeader,
-    AppHeader,
-    AppHeader
+    AppSecondHeader
 }
 }
 </script>
 
-<style>
+<style lang="scss">
+@import "./style/common.scss";
 
 </style>
