@@ -25,7 +25,7 @@ export default {
     h4 {
         font-size: .8rem;
         color: white;
-        text-align: center;
+        text-transform: uppercase;
     }
 
     img {
