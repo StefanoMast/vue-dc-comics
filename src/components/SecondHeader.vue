@@ -8,17 +8,17 @@
 
 <script>
 export default {
-
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 
 .secondHeader {
-    display: flex;
-    background-color: pink;
     margin-top: 1rem;
-    height: 130px;
+    background-image: url(../assets/vue-dc-comics-1/img/jumbotron.jpg);
+    background-size: cover;
+    padding: 3rem;
+    height: 300px;
 }
 
 </style>

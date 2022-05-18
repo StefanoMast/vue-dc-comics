@@ -2,14 +2,14 @@
   <div id="app">
     <!-- header -->
     <AppHeader/>
-    <AppSecondHeader/>
+    <SecondHeader/>
     
     <!-- main -->
     <main>
+      <ProductsList/>
       <AppNavMenu/>
       <AppMain/>
     </main>
-
     <!-- footer -->
 
   </div>
@@ -17,19 +17,21 @@
 
 <script>
 import AppHeader from "./components/AppHeader.vue";
-import AppSecondHeader from "./components/AppSecondHeader.vue";
+import SecondHeader from "./components/SecondHeader.vue";
 import AppNavMenu from "./components/AppNavMenu.vue";
 import AppMain from "./components/AppMain.vue";
+import ProductsList from "./components/ProductsList.vue";
 
 
 export default {
     name: 'App',
     components: {
-    AppHeader,
-    AppSecondHeader,
-    AppNavMenu,
-    AppMain
-}
+      AppHeader,
+      SecondHeader,
+      AppNavMenu,
+      AppMain,
+      ProductsList
+  }
 }
 </script>
 
