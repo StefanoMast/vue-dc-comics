@@ -2,7 +2,7 @@
   <div class="products">
       <div class="container">
           <div class="products__list">
-              <AppProduct v-for="(item, index) in products" :key="index" :img="item.thumb" :series="item.series"/>
+              <AppProduct v-for="(item, index) in products" :key="index" :productObj="item"/>
           </div>
 
       </div>

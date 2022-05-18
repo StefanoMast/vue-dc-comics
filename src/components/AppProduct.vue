@@ -1,17 +1,17 @@
 <template>
   <div class="product">
-      <img :src="img" alt="">
-      <h4>{{ series }}</h4>
+      <img :src="productObj.thumb" alt="">
+      <h4>{{ productObj.series }}</h4>
   </div>
 </template>
 
 <script>
 export default {
     name: "AppProduct",
-    props: {
-        img: String,
-        series: String
-    }
+    props: ["productObj"] 
+    //     {img: String,
+    //     series: String
+    // }
 }
 </script>
 
